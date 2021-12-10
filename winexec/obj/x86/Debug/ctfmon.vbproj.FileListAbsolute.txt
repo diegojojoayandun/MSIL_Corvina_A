@@ -1,0 +1,52 @@
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.exe.config
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.exe
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.pdb
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.xml
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.Resources.resources
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.vbproj.GenerateResource.Cache
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.pdb
+C:\Users\diego\OneDrive\Documentos\Visual Studio 2010\Projects\MARIAJOSE\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.Resource1.resources
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.exe
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\bin\Debug\ctfmon.xml
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.Resources.resources
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.Resource1.resources
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.vbproj.GenerateResource.Cache
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\Desktop\12345\MARIAJOSE UV - copia - copia\winexec\obj\x86\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.xml
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resources.resources
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resource1.resources
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.vbproj.GenerateResource.Cache
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\Desktop\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.xml
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resources.resources
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resource1.resources
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.vbproj.GenerateResource.Cache
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\Ransomware Project\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe.config
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe.config
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.pdb
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.xml
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resources.resources
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.Resource1.resources
+C:\Users\diego\Desktop\Ransomware Project 45\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.vbproj.GenerateResource.Cache
+C:\Users\diego\Desktop\MSIL.CORVINA.A\CFTMON\cftmon v1.0\winexec\bin\Debug\ctfmon.exe.config
+C:\Users\diego\Desktop\MSIL.CORVINA.A\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.exe
+C:\Users\diego\Desktop\MSIL.CORVINA.A\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.xml
+C:\Users\diego\Desktop\MSIL.CORVINA.A\CFTMON\cftmon v1.0\winexec\obj\x86\Debug\ctfmon.pdb
