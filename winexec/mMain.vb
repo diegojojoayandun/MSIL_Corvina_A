@@ -39,10 +39,13 @@ Module mMain
     Public Function CreatePass(ByVal Length As Integer) As String
 
         Dim cSBuilder As New StringBuilder
-        Dim rnd As New Random
+        Dim rng As New System.Security.Cryptography.RNGCryptoServiceProvider
         Try
+            Dim randomBytes(3) As Byte
             Do While (Length > 0)
-                cSBuilder.Append(clsS.sChar(rnd.Next(clsS.sChar.Length)))
+                rng.GetBytes(randomBytes)
+                Dim index As Integer = CInt(BitConverter.ToUInt32(randomBytes, 0) Mod CUInt(clsS.sChar.Length))
+                cSBuilder.Append(clsS.sChar(index))
                 Length = Length - 1
             Loop
         Catch ex As Exception
@@ -70,7 +73,7 @@ Module mMain
             Dim oFileInfo As System.IO.FileInfo = My.Computer.FileSystem.GetFileInfo(sFilePath)
             Return oFileInfo.Length
         Catch ex As Exception
-            Return "Error Reading File"
+            Return -1L
         End Try
     End Function
 
@@ -96,7 +99,7 @@ Module mMain
     ' Obtiene la ruta de la carpeta especial recibida como parametro
     Public Function GetSpecialFolder(ByVal SpecialFolder As Environment.SpecialFolder) As String
         Dim sFolderPath As String
-        sFolderPath = Environment.GetFolderPath(SpecialFolder) & vbCrLf
+        sFolderPath = Environment.GetFolderPath(SpecialFolder)
         Return AddBackSlash(sFolderPath)
     End Function
 
@@ -109,7 +112,7 @@ Module mMain
     ' Inicializa Clase Criptográfica
     Public Function InitRjdl(ByVal byt() As Byte, ByVal bytt() As Byte)
         Dim cspRijndael As New System.Security.Cryptography.RijndaelManaged
-        Return clsS.cspRijndael.CreateEncryptor(byt, bytt)
+        Return cspRijndael.CreateEncryptor(byt, bytt)
     End Function
 
     ' Inicializa HASH
@@ -189,12 +192,14 @@ Module mMain
     End Sub
 
     ' Evita la ejecución de otra instancia mediante la creación de  mutex
-    Private Function MutualExclusion(ByVal blNewInstance As Boolean) As Boolean
+    Private Function MutualExclusion() As Boolean
         Try
-            clsS.oMutex = New Mutex(True, GetHwId, blNewInstance)
+            Dim createdNew As Boolean
+            clsS.oMutex = New Mutex(True, GetHwId(), createdNew)
+            Return createdNew
         Catch exep As Exception
+            Return False
         End Try
-        Return blNewInstance
     End Function
 
     ' Funcion para la encriptación de todas las cadenas usando cifrado TripleDes

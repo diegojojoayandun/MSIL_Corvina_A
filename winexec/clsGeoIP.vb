@@ -15,7 +15,7 @@ Class clsGeoIP
     Shared Function GetExternalIp() As String
         Try
             Dim ExternalIP As String
-            ExternalIP = (New WebClient()).DownloadString("http://checkip.dyndns.org/")
+            ExternalIP = (New WebClient()).DownloadString("https://checkip.dyndns.org/")
 
             ExternalIP = (New Regex("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")) _
                          .Matches(ExternalIP)(0).ToString()
@@ -27,7 +27,7 @@ Class clsGeoIP
 
     Shared Function GetHostInfo(ByVal IP_Address As String) As HostGeoInfo
         Try
-            Dim IP_Hostname = "http://api.geoiplookup.net/?query=" & IP_Address
+            Dim IP_Hostname = "https://api.geoiplookup.net/?query=" & IP_Address
             Dim GeoIPResults As String = New WebClient().DownloadString(IP_Hostname)
             Dim HostInfo As New HostGeoInfo
 

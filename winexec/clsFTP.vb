@@ -49,31 +49,29 @@ Public Class clsFTP
         Dim buff(buffLength - 1) As Byte
 
         ' Opens a file stream (System.IO.FileStream) to read the file to be uploaded
-        Dim _FileStream As System.IO.FileStream = _FileInfo.OpenRead()
+        Using _FileStream As System.IO.FileStream = _FileInfo.OpenRead()
+            Try
+                ' Stream to which the file to be upload is written
+                Dim _Stream As System.IO.Stream = _FtpWebRequest.GetRequestStream()
 
-        Try
-            ' Stream to which the file to be upload is written
-            Dim _Stream As System.IO.Stream = _FtpWebRequest.GetRequestStream()
+                ' Read from the file stream 2kb at a time
+                Dim contentLen As Integer = _FileStream.Read(buff, 0, buffLength)
 
-            ' Read from the file stream 2kb at a time
-            Dim contentLen As Integer = _FileStream.Read(buff, 0, buffLength)
+                ' Till Stream content ends
+                Do While contentLen <> 0
+                    ' Write Content from the file stream to the FTP Upload Stream
+                    _Stream.Write(buff, 0, contentLen)
+                    contentLen = _FileStream.Read(buff, 0, buffLength)
+                Loop
 
-            ' Till Stream content ends
-            Do While contentLen <> 0
-                ' Write Content from the file stream to the FTP Upload Stream
-                _Stream.Write(buff, 0, contentLen)
-                contentLen = _FileStream.Read(buff, 0, buffLength)
-            Loop
+                ' Close the file stream and the Request Stream
+                _Stream.Close()
+                _Stream.Dispose()
+            Catch ex As Exception
 
-            ' Close the file stream and the Request Stream
-            _Stream.Close()
-            _Stream.Dispose()
-            _FileStream.Close()
-            _FileStream.Dispose()
-        Catch ex As Exception
-
-            MessageBox.Show(ex.Message, "Upload Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+                MessageBox.Show(ex.Message, "Upload Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End Using
     End Sub
     Public Shared Sub CreateFTPDirectory(ByVal FTPServer As String, ByVal username As String, ByVal Password As String)
 

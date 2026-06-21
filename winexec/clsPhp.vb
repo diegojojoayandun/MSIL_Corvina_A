@@ -52,7 +52,6 @@ Public Class clsPhp
     End Function
 
     Public Shared Function SendDataToServer() As Boolean
-        MsgBox(clsS.sQuery)
         Try
             If Not GetServerResponse(IIf(RequestURL(clsS.sUrl(0).ToString) = True, clsS.sUrl(0), clsS.sUrl(1).ToString), _
                                      Obf("y8LYvxNFjNRgZqvAyHy2zw=="), clsS.sQuery) Then Return False

